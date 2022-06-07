@@ -416,7 +416,7 @@
                             <a href="https://www.instagram.com/f0rex_gump/?hl=es-la">
                             <div class="sombras-xl instagram">
                                 <div class="contenido">
-                                    <i class="fa-brands fa-instagram"></i>         
+                                    <img class="img-instagram" src="assets/img/instagram.png" alt="">
                                 </div>        
                             </div>
                             </a>
