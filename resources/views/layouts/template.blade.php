@@ -212,21 +212,21 @@
         </section>
         <!-- Portafolio -->
         
-        <section class="page-section portfolio" id="portfolio">
+        <!-- <section class="page-section portfolio" id="portfolio">
                     <div class="container">
                         <br>
                         <br><br><br>
-                        <!-- Portfolio Section Heading-->
+                        
                         <h2 class="display-4 text-center lh-1 mb-4">ALGUNOS DISEÑOS</h2>
                         <br>
-                        <!-- Portfolio Grid Items-->
+                        
                         <div class="row justify-content-center">
-                            <!-- Portfolio Item 1-->
+                           
                             @yield('content')
                         
                         </div>
                     </div>
-        </section>
+        </section> -->
 
         <!-- Precios -->
 
