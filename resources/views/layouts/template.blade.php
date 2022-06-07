@@ -134,7 +134,7 @@
                                     <div class="text-center">
                                         <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                                         <h3 class="font-alt">Mapas</h3>
-                                        <p class="text-muted mb-0">Simply Site ha integrado MapBox, un sistema sencillo y completo de mapas online. Podrás personalizar el estilo a tu gusto y mostrar en tu web mapas de varias sedes de tu empresa.</p>
+                                        <p class="text-muted mb-0">Un sistema sencillo y completo de mapas online. Podrás personalizar el estilo a tu gusto y mostrar en tu web mapas de varias sedes de tu empresa.</p>
                                     </div>
                                 </div>
                             </div>
