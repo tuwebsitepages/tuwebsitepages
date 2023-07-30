@@ -27,8 +27,10 @@
                                     <div class="row justify-content-center">
                                         <div class="col-lg-8">
                                             <!-- Portfolio Modal - Title-->
-                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">{{ $proyecto->nombre }}</h2>
+                                            <h2 class="portfolio-modal-title text-gray text-uppercase mb-0">{{ $proyecto->nombre }}</h2>
                                             <!-- Portfolio Modal - Image-->
+                                            <br>
+                                            <br>
                                             <img class="img-fluid rounded mb-5" src="{{asset('storage').'/'.$proyecto->imagen}}" alt="">
                                             <!-- Portfolio Modal - Text-->
                                             <p class="mb-4">{{ $proyecto->descripcion }}</p>

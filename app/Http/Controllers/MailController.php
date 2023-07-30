@@ -27,7 +27,7 @@ class MailController extends Controller
 
         $correo = new TestMail($request->all());
 
-        Mail::to('tuwebsitepage@gmail.com')->send($correo);
+        Mail::to('eljirafo97@gmail.com')->send($correo);
         return redirect()->route('contactanos.welcome')->with('info', 'Te responderemos cuanto antes');
     }
 }

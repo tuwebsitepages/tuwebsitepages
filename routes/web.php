@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProyectoController;
+use App\Http\Controllers\TerminosController;
 
 
 /*
@@ -25,6 +26,8 @@ Route::middleware(['middleware', 'auth'])->group(function () {
 
 Auth::routes(['register' => false, 'reset' => false]);
 
+Route::resource('/terminos', TerminosController::class);
+
 Route::resource('/proyectos', ProyectoController::class)->middleware('auth');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware('auth')->name('home');
