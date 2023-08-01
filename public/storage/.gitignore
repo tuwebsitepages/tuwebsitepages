@@ -1,8 +1,0 @@
-*
-!.gitignore
-# Ignorar todo en la carpeta "storage"
-/storage/*
-
-# Excepto la carpeta "uploads" dentro de "public/storage"
-!/public/storage/uploads/
-
