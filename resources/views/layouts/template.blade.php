@@ -714,7 +714,7 @@
                     </a>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-6">
+                <div class="col-lg-3 col-md-4 col-3">
                     <h6 class="site-footer-title mb-3">Fuentes</h6>
 
                     <ul class="site-footer-links">
