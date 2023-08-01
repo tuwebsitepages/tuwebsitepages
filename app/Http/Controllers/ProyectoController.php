@@ -57,7 +57,7 @@ class ProyectoController extends Controller
 
 
         if($request->hasFile('imagen')){
-            $data['imagen']=$request->file('imagen')->store('uploads', 'public');
+            $data['imagen']=$request->file('imagen')->store('public');
         }
 
     
