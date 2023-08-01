@@ -447,7 +447,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingEight">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                    ¿Qué diferencia hay entre los planes que ofrecen?
+                                                    ¿Quien se hace cargo del hosting de mi pagina web?
                                                 </button>
                                             </h2>
 
