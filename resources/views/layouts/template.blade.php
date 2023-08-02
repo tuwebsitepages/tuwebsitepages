@@ -33,9 +33,10 @@
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="/"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="bi-list"></i>
-            </button>
+    <span class="d-none d-md-inline">Menu</span>
+    <i class="bi bi-list fs-4"></i>
+</button>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item"><a class="nav-link me-lg-3 click-scroll" href="#features">Sobre</a></li>

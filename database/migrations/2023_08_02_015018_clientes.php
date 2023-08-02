@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('imagen');
             $table->string('descripcion');
             $table->string('url');
+            $table->string('email');
+            $table->integer('telefono');
             
             $table->timestamps();
         });

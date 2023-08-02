@@ -43,8 +43,10 @@ use Carbon\Carbon;
                                     <th>Nombre</th>
                                     <th>Imagen</th>
                                     <th>Descripcion</th>
-                                    <th>Url</th>
-                                    <th>Creado</th>
+                                    <th>Dominio</th>
+                                    <th>Email</th>
+                                    <th>Telefono</th>
+                                    <th>Creado</th>                        
                                     <th>Restante</th>
 
                                     <th></th>
@@ -67,6 +69,8 @@ use Carbon\Carbon;
                                     <td> <img class="img-fluid" src="{{asset('storage').'/'.$cliente->imagen}}" width="100" alt=""></td>
                                     <td>{{ $cliente->descripcion }}</td>
                                     <td>{{ $cliente->url }}</td>
+                                    <td>{{ $cliente->email }}</td>
+                                    <td>{{ $cliente->telefono }}</td>
                                     <td>{{ Carbon::parse($cliente->created_at)->setTimezone('America/Argentina/Buenos_Aires')->format('d/m/Y') }}</td>
                                     <td>
                                         @if ($now < $nextAnniversary) {{ $remainingMonths }} meses y {{ $remainingDays }} días @else Ya ha pasado un año desde la creación @endif </td>

@@ -13,6 +13,8 @@ use Illuminate\Database\Eloquent\Model;
  * @property $imagen
  * @property $descripcion
  * @property $url
+ * @property $email
+ * @property $telefono
  * @property $created_at
  * @property $updated_at
  *
@@ -26,6 +28,8 @@ class Cliente extends Model
 		'imagen' => 'required|max:10000|mimes:jpeg,png,jpg',
 		'descripcion' => 'required',
 		'url' => 'required',
+    'email' => 'required',
+    'telefono' => 'required',
     ];
 
     protected $perPage = 20;
@@ -35,7 +39,7 @@ class Cliente extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre','imagen','descripcion','url'];
+    protected $fillable = ['nombre','imagen','descripcion','url','email','telefono'];
 
 
 

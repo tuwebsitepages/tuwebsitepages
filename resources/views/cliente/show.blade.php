@@ -33,8 +33,16 @@
                             {{ $cliente->descripcion }}
                         </div>
                         <div class="form-group">
-                            <strong>Url:</strong>
+                            <strong>Dominio:</strong>
                             {{ $cliente->url }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Email:</strong>
+                            {{ $cliente->email }}
+                        </div>
+                        <div class="form-group">
+                            <strong>Telefono:</strong>
+                            {{ $cliente->telefono }}
                         </div>
                         <div class="form-group">
                             <strong>Creado:</strong>
