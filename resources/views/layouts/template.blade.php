@@ -8,10 +8,15 @@
     <meta name="author" content="" />
     <title>TuWebsite</title>
     <link rel="icon" type="image/x-icon" href="assets/img/tuwebsite.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-p7+pvp54yE5mw9Bf5HbL3CpG1/u7eqVz6kx06v1Nwz3R7RW9IxQc3jl7bA9/Vwo0vmqiHYiGBVhZJPQl6tSz0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap icons-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+ 
 
 
     <!-- Google fonts-->
@@ -28,6 +33,8 @@
 </head>
 
 <body id="page-top">
+
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
@@ -107,6 +114,28 @@
         </div>
     </aside>
     <!-- App features section-->
+    <a href="https://api.whatsapp.com/send?phone=1158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<style>
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Color verde original de WhatsApp */
+    width: 50px; /* Tamaño del botón (ajústalo según tus preferencias) */
+    height: 50px; /* Tamaño del botón (ajústalo según tus preferencias) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 24px; /* Tamaño del ícono (ajústalo según tus preferencias) */
+    text-decoration: none; /* Para quitar la subrayado del enlace */
+    z-index: 2;
+  }
+</style>
 
     <section id="features">
         <div class="container">
