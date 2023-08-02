@@ -329,7 +329,7 @@
             <br>
             <br><br><br>
 
-            <h2 class="display-4 text-center lh-1 mb-4">Explora Nuestro Portafolio</h2>
+            <h2 class="display-4 text-center lh-1 mb-4">Explora Diseños</h2>
             <br>
 
             <div class="row justify-content-center">

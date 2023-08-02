@@ -34,10 +34,10 @@
                                             <img class="img-fluid rounded mb-5" src="{{asset('storage').'/'.$proyecto->imagen}}" alt="">
                                             <!-- Portfolio Modal - Text-->
                                             <p class="mb-4">{{ $proyecto->descripcion }}</p>
-                                            <a class="btn btn-primary" href="{{ $proyecto->url }}">
+                                            <!-- <a class="btn btn-primary" href="{{ $proyecto->url }}">
                                                 <i class="fas fa-xmark fa-fw"></i>
                                                 Ver proyecto
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                 </div>

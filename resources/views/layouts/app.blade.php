@@ -38,6 +38,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('proyectos.index') }}">{{ __('Proyectos') }}</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('clientes.index') }}">{{ __('Clientes') }}</a>
+                                </li>
                             @endif
 
                     </ul>
