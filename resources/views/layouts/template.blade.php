@@ -32,33 +32,37 @@
 
 <body id="page-top">
 
-    <a href="https://api.whatsapp.com/send?phone=1158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
+    <a href="https://api.whatsapp.com/send?phone=541158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
     </a>
     <style>
-        .whatsapp-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #25D366;
-            /* Color verde original de WhatsApp */
-            width: 50px;
-            /* Tamaño del botón (ajústalo según tus preferencias) */
-            height: 50px;
-            /* Tamaño del botón (ajústalo según tus preferencias) */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            color: white;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-            font-size: 24px;
-            /* Tamaño del ícono (ajústalo según tus preferencias) */
-            text-decoration: none;
-            /* Para quitar la subrayado del enlace */
-            z-index: 2;
-        }
-    </style>
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        /* Color verde original de WhatsApp */
+        width: 50px;
+        /* Tamaño del botón (ajústalo según tus preferencias) */
+        height: 50px;
+        /* Tamaño del botón (ajústalo según tus preferencias) */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #ffffff; /* Color del ícono */
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 24px;
+        /* Tamaño del ícono (ajústalo según tus preferencias) */
+        text-decoration: none;
+        /* Para quitar el subrayado del enlace */
+        z-index: 2;
+    }
+
+    .whatsapp-button:hover{
+        color: #ffffff;
+    }
+</style>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
@@ -94,7 +98,7 @@
                     <!-- Mashead text and app badges-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
                         <h1 class="display-1 lh-1 mb-3">Dale un click a tu marca ahora</h1>
-                        <p class="lead fw-normal text-muted mb-5">Te diseñaremos una página web moderna, atractiva y optimizada para móviles</p>
+                        <p class="lead fw-normal text-muted mb-5">Te diseñamos una Landing Page moderna, atractiva y optimizada para dispositivos móviles.</p>
 
                     </div>
                 </div>
@@ -258,8 +262,8 @@
         <div class="container px-5">
             <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                 <div class="col-12 col-lg-5">
-                    <h2 class="display-4 lh-1 mb-4">Contenido Persuasivo</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Nuestras landing pages presentan un contenido persuasivo y potente, destacando los beneficios de tus productos o servicios de manera impactante. Motivamos a los visitantes a actuar de inmediato, generando conversiones significativas. Confía en nuestro contenido codificado para impulsar tu negocio en línea al éxito.</p>
+                    <h2 class="display-4 lh-1 mb-4">Experiencia Web Segura</h2>
+                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Nuestro servicio de desarrollo web incluye un certificado SSL que garantiza la seguridad y privacidad de tu sitio. Eliminamos cualquier indicación de "no seguro" en el enlace, brindando una experiencia confiable para todos los usuarios.</p>
                 </div>
                 <div class="col-sm-8 col-md-6">
                     <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/COD.png" alt="..." /></div>
@@ -309,7 +313,7 @@
                             <li>
                                 <h4 class="text-white mb-3">Escucha y Planificación Personalizada</h4>
 
-                                <p class="text-white">Nuestro proceso comienza con una escucha atenta a las ideas y necesidades de nuestros clientes. Cuando un cliente se acerca a nosotros con la visión de su sitio web, nos reunimos para entender a fondo sus objetivos y requerimientos. Ofrecemos diferentes planes de diseño que se ajustan a las distintas necesidades, cada uno con opciones específicas que incluyen características y funcionalidades. El cliente elige el plan que mejor se adapte a sus metas y presupuesto, y juntos planificamos la estrategia para su proyecto.</p>
+                                <p class="text-white">Comenzamos con una escucha atenta a las ideas y necesidades del cliente. Ofrecemos planes de diseño que se ajustan a sus distintas necesidades y juntos planificamos la estrategia para el proyecto.</p>
 
                                 <div class="icon-holder">
                                     <i class="bi-search"></i>
@@ -319,7 +323,7 @@
                             <li>
                                 <h4 class="text-white mb-3">Desarrollo Profesional y Colaborativo</h4>
 
-                                <p class="text-white">Una vez que hemos definido el plan y la visión del sitio web, nuestro equipo de desarrollo entra en acción. Trabajamos en estrecha colaboración con el cliente durante todo el proceso para garantizar que el resultado final refleje su identidad y cumpla con sus expectativas. Nuestro equipo de programadores altamente capacitados se encarga de dar vida a la visión, creando un sitio web único y funcional. Durante el desarrollo, mantenemos una comunicación constante con el cliente, compartiendo avances, recibiendo retroalimentación y haciendo ajustes según sea necesario.</p>
+                                <p class="text-white">Nuestro equipo altamente capacitado trabaja en estrecha colaboración con el cliente para crear un sitio web único y funcional. Mantenemos una comunicación constante, compartimos avances y ajustamos el proyecto según sus requerimientos.</p>
 
                                 <div class="icon-holder">
                                     <i class="bi-bookmark"></i>
@@ -329,7 +333,7 @@
                             <li>
                                 <h4 class="text-white mb-3">Entrega del Producto</h4>
 
-                                <p class="text-white">Una vez que el sitio web ha sido desarrollado y perfeccionado según los requisitos del cliente, llega el emocionante momento de la entrega. Entregamos el producto final y nos aseguramos de que todo funcione sin problemas. Además, proporcionamos capacitación y orientación para que el cliente pueda gestionar y actualizar su sitio de manera independiente.</p>
+                                <p class="text-white">Una vez que el sitio web ha sido desarrollado y perfeccionado según los requisitos del cliente, llega el emocionante momento de la entrega. Entregamos el producto final y nos aseguramos de que todo funcione sin problemas. </p>
 
                                 <div class="icon-holder">
                                     <i class="bi-book"></i>
@@ -479,19 +483,31 @@
                                                 Nos encantaría trabajar contigo en tu proyecto. Puedes ponerte en contacto con nosotros a través de nuestro formulario de contacto en el sitio web, por correo electrónico o por teléfono. Estamos listos para escuchar tus ideas y ayudarte a llevarlas a la realidad.
                                             </div>
                                         </div>
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingEight">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                    ¿Quien se hace cargo del hosting de mi pagina web?
+                                                ¿Qué sucede con el dominio de mi sitio web?
                                                 </button>
                                             </h2>
 
                                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Ofrecemos tres planes distintos para satisfacer diversas necesidades. El plan básico incluye funcionalidades esenciales para presentar tu oferta de manera atractiva. El plan medio agrega características adicionales que pueden mejorar la interacción y aumentar la conversión. Finalmente, el plan avanzado ofrece servicios más completos, como integraciones personalizadas y páginas adicionales. Puedes elegir el plan que mejor se adapte a tus objetivos y presupuesto.
-                                                </div>
+                                                Al desarrollar tu sitio web, adquiriremos un dominio a nombre de nuestra empresa, lo cual te permitirá visualizar y utilizar tu página de forma efectiva. No te preocupes, aunque el dominio esté registrado a nuestro nombre, seguirás teniendo total control sobre su contenido y configuración. Además, te ofreceremos la opción de elegir tu propio nombre de dominio personalizado, y al finalizar el primer año, podrás renovar el contrato para continuar utilizando tu dominio sin interrupciones. Es importante destacar que el dominio siempre será de tu propiedad, y estaremos aquí para brindarte el soporte y la asistencia necesaria en todo momento.                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingNine">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                ¿Qué incluye el servicio de diseño y desarrollo de mi sitio web?
+                                                </button>
+                                            </h2>
+
+                                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                Nuestro servicio incluye el diseño y desarrollo personalizado de tu página web, así como la adquisición del hosting y el mantenimiento por un año completo. Durante este período, nos encargaremos de asegurar que tu sitio funcione de manera óptima y esté siempre actualizado. Al finalizar el año, tendrás la opción de renovar el contrato para continuar disfrutando de nuestros servicios de hosting y mantenimiento.                                                </div>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
 
@@ -670,7 +686,7 @@
                     </tr>
                     <tr>
                         <td>Host y Dominio</td>
-                        <td colspan="3">El costo no incluye el hosting ni el dominio del sitio web</td>
+                        <td colspan="3">El Hosting y Dominio tendran un año de vigencia</td>
                     </tr>
                     <tr>
                         <td> </td>
