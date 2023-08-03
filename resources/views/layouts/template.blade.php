@@ -9,14 +9,12 @@
     <title>TuWebsite</title>
     <link rel="icon" type="image/x-icon" href="assets/img/tuwebsite.png" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-p7+pvp54yE5mw9Bf5HbL3CpG1/u7eqVz6kx06v1Nwz3R7RW9IxQc3jl7bA9/Vwo0vmqiHYiGBVhZJPQl6tSz0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- Bootstrap icons-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
- 
+
 
 
     <!-- Google fonts-->
@@ -34,15 +32,42 @@
 
 <body id="page-top">
 
-
+    <a href="https://api.whatsapp.com/send?phone=1158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <style>
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            /* Color verde original de WhatsApp */
+            width: 50px;
+            /* Tamaño del botón (ajústalo según tus preferencias) */
+            height: 50px;
+            /* Tamaño del botón (ajústalo según tus preferencias) */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            /* Tamaño del ícono (ajústalo según tus preferencias) */
+            text-decoration: none;
+            /* Para quitar la subrayado del enlace */
+            z-index: 2;
+        }
+    </style>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="/"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="d-none d-md-inline">Menu</span>
-    <i class="bi bi-list fs-4"></i>
-</button>
+                <span class="d-none d-md-inline">Menu</span>
+                <i class="bi bi-list fs-4"></i>
+
+            </button>
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
@@ -114,28 +139,7 @@
         </div>
     </aside>
     <!-- App features section-->
-    <a href="https://api.whatsapp.com/send?phone=1158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
-  <i class="bi bi-whatsapp"></i>
-</a>
-<style>
-  .whatsapp-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366; /* Color verde original de WhatsApp */
-    width: 50px; /* Tamaño del botón (ajústalo según tus preferencias) */
-    height: 50px; /* Tamaño del botón (ajústalo según tus preferencias) */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    font-size: 24px; /* Tamaño del ícono (ajústalo según tus preferencias) */
-    text-decoration: none; /* Para quitar la subrayado del enlace */
-    z-index: 2;
-  }
-</style>
+
 
     <section id="features">
         <div class="container">
@@ -777,7 +781,7 @@
 
                     <p class="text-white d-flex">
                         <a href="mailto:info@company.com" class="site-footer-link">
-                        tuwebsitepages@gmail.com
+                            tuwebsitepages@gmail.com
                         </a>
                     </p>
                 </div>
