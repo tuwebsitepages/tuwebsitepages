@@ -470,7 +470,9 @@
 
                                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Al desarrollar tu sitio web, adquiriremos un dominio a nombre de nuestra empresa, lo cual te permitirá visualizar y utilizar tu página de forma efectiva. No te preocupes, aunque el dominio esté registrado a nuestro nombre, seguirás teniendo total control sobre su contenido y configuración. Además, te ofreceremos la opción de elegir tu propio nombre de dominio personalizado, y al finalizar el primer año, podrás renovar el contrato para continuar utilizando tu dominio sin interrupciones. Es importante destacar que el dominio siempre será de tu propiedad, y estaremos aquí para brindarte el soporte y la asistencia necesaria en todo momento. </div>
+                                                    En nuestro servicio de desarrollo web, el registro y propiedad del dominio son responsabilidad del cliente. Entendemos que el dominio es algo personal y esencial para su identidad en línea. Por lo tanto, recomendamos que nuestros clientes adquieran y mantengan la propiedad de su dominio para tener el control total sobre él.
+
+                                                    No te preocupes si no tienes experiencia en la configuración del dominio, nuestro equipo estará encantado de guiarte en el proceso. Podemos proporcionarte instrucciones detalladas para registrar tu dominio con un proveedor de tu elección. Además, te asistiremos en la configuración de los registros DNS y cualquier otra configuración necesaria para que tu dominio apunte correctamente a tu nuevo sitio web. </div>
                                             </div>
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingNine">
