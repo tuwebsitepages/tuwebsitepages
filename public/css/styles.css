@@ -96,6 +96,72 @@ hr {
   border: 0;
   opacity: 0.25;
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  /* Color verde original de WhatsApp */
+  width: 50px;
+  /* Tamaño del botón (ajústalo según tus preferencias) */
+  height: 50px;
+  /* Tamaño del botón (ajústalo según tus preferencias) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  /* Color del ícono */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  /* Tamaño del ícono (ajústalo según tus preferencias) */
+  text-decoration: none;
+  /* Para quitar el subrayado del enlace */
+  z-index: 2;
+}
+
+.whatsapp-button:hover {
+  color: #ffffff;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff52b4;
+  /* Color verde original de WhatsApp */
+  width: 50px;
+  /* Tamaño del botón */
+  height: 50px;
+  /* Tamaño del botón */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  /* Bordes redondeados */
+  color: #ffffff;
+  /* Color del ícono */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  /* Tamaño del ícono */
+  text-decoration: none;
+  z-index: 2;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #ff52b4;
+  /* Cambia de color al pasar el cursor sobre el botón */
+}
+
+.scroll-to-top-button i{
+  color: white;
+}
+
+/* Estilo del ícono de flecha hacia arriba */
+.bi-arrow-up {
+  transform: rotate(-90deg);
+  /* Gira el ícono 90 grados en sentido antihorario */
+}
 
 hr:not([size]) {
   height: 1px;
@@ -11885,7 +11951,7 @@ aside{
 @media(min-width: 992px){
 
     .device{
-        width: 130%;
+        width: 100%;
         height: 130%;
     }
 }

@@ -35,34 +35,11 @@
     <a href="https://api.whatsapp.com/send?phone=541158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
     </a>
-    <style>
-    .whatsapp-button {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #25D366;
-        /* Color verde original de WhatsApp */
-        width: 50px;
-        /* Tamaño del botón (ajústalo según tus preferencias) */
-        height: 50px;
-        /* Tamaño del botón (ajústalo según tus preferencias) */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        color: #ffffff; /* Color del ícono */
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-        /* Tamaño del ícono (ajústalo según tus preferencias) */
-        text-decoration: none;
-        /* Para quitar el subrayado del enlace */
-        z-index: 2;
-    }
+    <a href="#" class="scroll-to-top-button">
+        <i class="bi bi-caret-up-fill"></i>
+    </a>
 
-    .whatsapp-button:hover{
-        color: #ffffff;
-    }
-</style>
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
@@ -487,32 +464,32 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingEight">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                ¿Qué sucede con el dominio de mi sitio web?
+                                                    ¿Qué sucede con el dominio de mi sitio web?
                                                 </button>
                                             </h2>
 
                                             <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                Al desarrollar tu sitio web, adquiriremos un dominio a nombre de nuestra empresa, lo cual te permitirá visualizar y utilizar tu página de forma efectiva. No te preocupes, aunque el dominio esté registrado a nuestro nombre, seguirás teniendo total control sobre su contenido y configuración. Además, te ofreceremos la opción de elegir tu propio nombre de dominio personalizado, y al finalizar el primer año, podrás renovar el contrato para continuar utilizando tu dominio sin interrupciones. Es importante destacar que el dominio siempre será de tu propiedad, y estaremos aquí para brindarte el soporte y la asistencia necesaria en todo momento.                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingNine">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                ¿Qué incluye el servicio de diseño y desarrollo de mi sitio web?
-                                                </button>
-                                            </h2>
-
-                                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                Nuestro servicio incluye el diseño y desarrollo personalizado de tu página web, así como la adquisición del hosting y el mantenimiento por un año completo. Durante este período, nos encargaremos de asegurar que tu sitio funcione de manera óptima y esté siempre actualizado. Al finalizar el año, tendrás la opción de renovar el contrato para continuar disfrutando de nuestros servicios de hosting y mantenimiento.                                                </div>
+                                                    Al desarrollar tu sitio web, adquiriremos un dominio a nombre de nuestra empresa, lo cual te permitirá visualizar y utilizar tu página de forma efectiva. No te preocupes, aunque el dominio esté registrado a nuestro nombre, seguirás teniendo total control sobre su contenido y configuración. Además, te ofreceremos la opción de elegir tu propio nombre de dominio personalizado, y al finalizar el primer año, podrás renovar el contrato para continuar utilizando tu dominio sin interrupciones. Es importante destacar que el dominio siempre será de tu propiedad, y estaremos aquí para brindarte el soporte y la asistencia necesaria en todo momento. </div>
                                             </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingNine">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                        ¿Qué incluye el servicio de diseño y desarrollo de mi sitio web?
+                                                    </button>
+                                                </h2>
 
+                                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Nuestro servicio incluye el diseño y desarrollo personalizado de tu página web, así como la adquisición del hosting y el mantenimiento por un año completo. Durante este período, nos encargaremos de asegurar que tu sitio funcione de manera óptima y esté siempre actualizado. Al finalizar el año, tendrás la opción de renovar el contrato para continuar disfrutando de nuestros servicios de hosting y mantenimiento. </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                        </div>
     </section>
     <!-- Precios -->
     <section id="section_3" class="py-5 " data-aos="fade-up">
