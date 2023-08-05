@@ -45,7 +45,7 @@
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="/"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="d-none d-md-inline">Menu</span>
+                <span class="d-none d-md-inline">Meenu</span>
                 <i class="bi bi-list fs-4"></i>
 
             </button>
