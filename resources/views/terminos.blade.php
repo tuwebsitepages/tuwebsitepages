@@ -103,7 +103,7 @@
                     El valor expresado no incluye actualizaciones luego de finalizado el desarrollo. Quedan excluidos: Diarios digitales, foros, sitios de subastas y búsquedas o reservas online.</p>
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="col-lg-3 col-12 mb-4 pb-2">
-                    <a class=" navbar-brand mb-2" href="index.html">
+                    <a class=" navbar-brand mb-2" href="/">
                         <i class="bi-back"></i>
                         <span>Tu WebSite</span>
                     </a>
