@@ -35,7 +35,7 @@
 <div class="loader"></div>
 <div class="loading-overlay"></div>
 
-<body id="page-top"">
+<body id="page-top" class="content">
 
     <a href="https://api.whatsapp.com/send?phone=541158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
