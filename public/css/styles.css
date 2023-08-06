@@ -128,7 +128,8 @@ hr {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ff52b4;
+  background-color: white;
+  border: 3px solid #63c379;
   /* Color verde original de WhatsApp */
   width: 50px;
   /* Tamaño del botón */
@@ -149,12 +150,14 @@ hr {
 }
 
 .scroll-to-top-button:hover {
-  background-color: #ff52b4;
+  background-color: white;
+  border: 3px solid #63c379;
   /* Cambia de color al pasar el cursor sobre el botón */
 }
 
 .scroll-to-top-button i{
-  color: white;
+  color:#63c379;
+  
 }
 
 /* Estilo del ícono de flecha hacia arriba */
