@@ -108,13 +108,6 @@
   pointer-events: none; /* Evita que intercepte eventos de clic */
 }
 
-/* Estilos para mostrar el contenido */
-.content {
-  opacity: 0; /* El contenido estará oculto inicialmente */
-  transition: opacity 0.5s ease; /* Agrega una transición suave */
-  pointer-events: none; /* Asegura que el contenido no sea clickeable mientras se oculta */
-}
-
 
 
 body {

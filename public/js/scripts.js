@@ -7,6 +7,25 @@
 // Scripts
 // 
 
+// Ocultar el loader y mostrar el contenido una vez que la página haya cargado completamente
+window.addEventListener('load', function() {
+    const loader = document.querySelector('.loader');
+    const overlay = document.querySelector('.loading-overlay');
+    const content = document.querySelector('.content');
+
+    
+
+    // Ocultar el loader y la capa blanca
+    loader.style.display = 'none';
+    overlay.style.opacity = 0;
+
+    // Añadir una transición suave para mostrar el contenido
+    setTimeout(function() {
+      content.style.opacity = 1;
+      content.style.pointerEvents = 'auto'; /* Habilitar eventos de clic en el contenido */
+    }, 500); // 500ms es el tiempo de la transición especificado en el CSS
+  });
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -34,3 +53,5 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
+  
+  

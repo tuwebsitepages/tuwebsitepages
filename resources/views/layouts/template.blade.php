@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <meta http-equiv="cache-control" content="no-store">
+
     <title>TuWebsite</title>
     <link rel="icon" type="image/x-icon" href="assets/img/tuwebsite.png" />
 
@@ -33,7 +35,7 @@
 <div class="loader"></div>
 <div class="loading-overlay"></div>
 
-<body id="page-top" class="content">
+<body id="page-top"">
 
     <a href="https://api.whatsapp.com/send?phone=541158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
@@ -937,25 +939,6 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 </body>
-<script>
-  // Ocultar el loader y mostrar el contenido una vez que la página haya cargado completamente
-  window.addEventListener('load', function() {
-    const loader = document.querySelector('.loader');
-    const overlay = document.querySelector('.loading-overlay');
-    const content = document.querySelector('.content');
-
-    // Ocultar el loader y la capa blanca
-    loader.style.display = 'none';
-    overlay.style.opacity = 0;
-
-    // Añadir una transición suave para mostrar el contenido
-    setTimeout(function() {
-      content.style.opacity = 1;
-      content.style.pointerEvents = 'auto'; /* Habilitar eventos de clic en el contenido */
-    }, 500); // 500ms es el tiempo de la transición especificado en el CSS
-  });
-</script>
-
 
 
 </html>
