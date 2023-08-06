@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="en" translate="no">
+
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Tu website</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>TuWebsite</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/tuwebsite.png" />
+
     <!-- Bootstrap icons-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
 
 
     <!-- Google fonts-->
@@ -24,105 +26,29 @@
     <link rel="stylesheet" href="css/templatemo-topic-listing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
+
 </head>
 
-<style>
-    /* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  text-align: center;
-  margin: 30px 0;
-}
-
-h2 {
-  margin: 20px 0;
-}
-
-p {
-  margin: 10px 0;
-}
-
-/* Contenedor principal */
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Estilos para los títulos */
-h1,
-h2 {
-  color: gray;
-}
-
-/* Estilos para los enlaces */
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Estilos para la lista de términos */
-ul {
-  list-style-type: decimal;
-  padding-left: 20px;
-}
-
-/* Estilos para los párrafos de la lista */
-ul li p {
-  margin: 5px 0;
-}
-
-/* Estilos para el botón de contacto */
-.button {
-  display: block;
-  width: 150px;
-  margin: 30px auto;
-  padding: 10px 20px;
-  text-align: center;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #0056b3;
-}
-
-/* Estilos para el pie de página */
-footer {
-  text-align: center;
-  margin-top: 50px;
-}
-
-/* Estilos para el aviso de privacidad */
-.privacy {
-  color: #999;
-}
-
-</style>
-
 <body id="page-top">
+
+    <a href="https://api.whatsapp.com/send?phone=541158416500" target="_blank" rel="noopener noreferrer" class="whatsapp-button">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="#" class="scroll-to-top-button">
+        <i class="bi bi-caret-up-fill"></i>
+    </a>
+
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="/"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="bi-list"></i>
+                <span class="d-none d-md-inline">Menu</span>
+                <i class="bi bi-list fs-4"></i>
+
             </button>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item"><a class="nav-link me-lg-3 click-scroll" href="/#features">Sobre</a></li>
@@ -130,7 +56,7 @@ footer {
                     <li class="nav-item"><a class="nav-link me-lg-3 click-scroll" href="/#section_2">FAQs</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3 click-scroll" href="/#section_3">Precios</a></li>
                 </ul>
-              
+                
             </div>
         </div>
     </nav>
@@ -165,11 +91,17 @@ footer {
 
     <p class="disclaimer">Esperamos que esta plataforma te brinde las herramientas necesarias para crear landing pages exitosas. Si tienes alguna pregunta o inquietud, no dudes en ponerte en contacto con nuestro equipo de soporte. Gracias por confiar en nosotros y utilizar nuestros servicios.</p>
   </div>
+    <!-- Footer-->
+
     <footer class="site-footer section-padding">
         <div class="container">
             <div class="row">
 
+            
 
+                <p class="acta text-gray text-center mt-5">Una vez finalizado el desarrollo, tendrás la posibilidad de actualizar / modificar tu sitio web por tus propios medios y la cantidad de veces que sea necesario.
+                    El valor expresado no incluye actualizaciones luego de finalizado el desarrollo. Quedan excluidos: Diarios digitales, foros, sitios de subastas y búsquedas o reservas online.</p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <div class="col-lg-3 col-12 mb-4 pb-2">
                     <a class=" navbar-brand mb-2" href="index.html">
                         <i class="bi-back"></i>
@@ -177,7 +109,7 @@ footer {
                     </a>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-6">
+                <div class="col-lg-3 col-md-4 col-3">
                     <h6 class="site-footer-title mb-3">Fuentes</h6>
 
                     <ul class="site-footer-links">
@@ -196,7 +128,7 @@ footer {
                         <li class="site-footer-link-item">
                             <a href="/#section_3" class="site-footer-link">Precios</a>
                         </li>
-                     
+                      
                     </ul>
                 </div>
 
@@ -205,10 +137,19 @@ footer {
 
 
 
-                    <p class="text-white d-flex">
-                        <a href="mailto:info@company.com" class="site-footer-link">
-                            info@company.com
+                    <p class="text-gray d-flex">
+                        <a href="mailto:tuwebsitepages@gmail.com" class="site-footer-link" style="color: inherit; text-decoration: none;">
+                            tuwebsitepages@gmail.com
                         </a>
+                        
+                    </p>
+                    <p class="text-gray d-flex">
+    
+                        <a href="https://www.instagram.com/tuwebsitepage/" target="_blank" class="site-footer-link" style="color: inherit; text-decoration: none;">
+                            <i class="bi bi-instagram"></i>   @tuwebsitepage
+
+                        </a>
+                        
                     </p>
                 </div>
 
@@ -217,32 +158,16 @@ footer {
                         <a class="navbar-brand fw-bold" href="#page-top"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
                     </div>
 
-                    <p class="copyright-text mt-lg-5 mt-4">Tu Website 2022. Todos los derechos reservados.
+                    <p class="copyright-text mt-lg-5 mt-4">Tu Website 2023. Todos los derechos reservados.
                     </p>
 
                 </div>
 
             </div>
         </div>
-    </footer>
+    </footer> 
     
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-
-    <script src="js/js/jquery.min.js"></script>
-
-    <script src="js/js/jquery.sticky.js"></script>
-    <script src="js/js/custom.js"></script>
 </body>
+
 
 </html>

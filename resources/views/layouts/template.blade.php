@@ -97,7 +97,7 @@
                         <div>
                             <div class="device" data-orientation="portrait" data-color="black">
                                 <div>
-                                    <img src="assets/img/developer.png" alt="" style="width: 100%; height: 100%">
+                                    <img src="assets/img/code.png" alt="" style="width: 100%; height: 100%">
                                 </div>
                             </div>
                         </div>
@@ -774,10 +774,19 @@
 
 
 
-                    <p class="text-white d-flex">
-                        <a href="mailto:info@company.com" class="site-footer-link">
+                    <p class="text-gray d-flex">
+                        <a href="mailto:tuwebsitepages@gmail.com" class="site-footer-link" style="color: inherit; text-decoration: none;">
                             tuwebsitepages@gmail.com
                         </a>
+                        
+                    </p>
+                    <p class="text-gray d-flex">
+    
+                        <a href="https://www.instagram.com/tuwebsitepage/" target="_blank" class="site-footer-link" style="color: inherit; text-decoration: none;">
+                            <i class="bi bi-instagram"></i>   @tuwebsitepage
+
+                        </a>
+                        
                     </p>
                 </div>
 
@@ -786,7 +795,7 @@
                         <a class="navbar-brand fw-bold" href="#page-top"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
                     </div>
 
-                    <p class="copyright-text mt-lg-5 mt-4">Tu Website 2022. Todos los derechos reservados.
+                    <p class="copyright-text mt-lg-5 mt-4">Tu Website 2023. Todos los derechos reservados.
                     </p>
 
                 </div>

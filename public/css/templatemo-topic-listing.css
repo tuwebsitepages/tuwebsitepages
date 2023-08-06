@@ -994,13 +994,13 @@ blockquote {
 }
 
 .site-footer-link {
-  color: var(--secondary-color);
+  color: gray;
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-medium);
   line-height: normal;
 }
 .site-footer-link:hover {
-  color: #63c379;
+  color: gray;
 }
 
 .copyright-text {
