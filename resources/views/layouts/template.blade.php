@@ -49,7 +49,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="/"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
-           
+
             <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" aria-label="Main Menu">
                 <svg width="40" height="40" viewBox="0 0 100 100">
                     <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
@@ -141,7 +141,7 @@
                                 <div class="text-center">
                                     <i class="bi-patch-question icon-feature text-gradient d-block mb-3"></i>
                                     <h3 class="font-alt">Preguntas Frecuentes</h3>
-                                    <p class="text-muted mb-0">Responde las dudas más comunes de tus clientes con una sección de Preguntas Frecuentes. Organiza y presenta información relevante en un formato fácil de leer. Proporciona respuestas claras y concisas para ayudar a tus usuarios a tomar decisiones informadas. Reduce la carga de atención al cliente y mejora la experiencia de usuario al brindarles la información que necesitan.
+                                    <p class="text-muted mb-0">Simplifica consultas de clientes con respuestas claras y concisas. Mejora la experiencia del usuario y aligera la atención al cliente.
                                     </p>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@
                                 <div class="text-center">
                                     <i class="bi-card-text icon-feature text-gradient d-block mb-3"></i>
                                     <h3 class="font-alt">Formularios</h3>
-                                    <p class="text-muted mb-0">Un formulario de contacto te permite una comunicación directa y efectiva con tus usuarios, brindándoles la facilidad de contactarte rápidamente y generando oportunidades de negocio. Ofrece un excelente servicio al cliente, mostrando tu disposición para atender sus necesidades y fortalecer la confianza en tu marca. ¡Potencia la comunicación y aprovecha todas las ventajas que te ofrecemos!</p>
+                                    <p class="text-muted mb-0">Un formulario de contacto agiliza interacciones con usuarios, fomenta oportunidades de negocio y refuerza confianza en tu marca. Mejora la atención al cliente y maximiza beneficios.</p>
                                 </div>
                             </div>
 
@@ -161,7 +161,7 @@
                                 <div class="text-center">
                                     <i class="bi-images icon-feature text-gradient d-block mb-3"></i>
                                     <h3 class="font-alt">Carrusel de Imágenes</h3>
-                                    <p class="text-muted mb-0">Destaca tus productos, servicios o proyectos con un atractivo carrusel de imágenes. Muestra una variedad de fotografías llamativas en un solo lugar. Con opciones de navegación intuitivas, tus usuarios podrán ver múltiples imágenes en un espacio limitado. Crea un impacto visual y muestra la diversidad de lo que tienes para ofrecer.</p>
+                                    <p class="text-muted mb-0">Resalta tu web con un carrusel de imágenes llamativas. Navegación intuitiva para mostrar variedad en un espacio limitado, capturando la atención y destacando lo que tienes para ofrecer.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -169,7 +169,7 @@
                                 <div class="text-center">
                                     <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
                                     <h3 class="font-alt">Testimonios</h3>
-                                    <p class="text-muted mb-0">Gana la confianza de tus visitantes con testimonios de clientes satisfechos. Comparte experiencias reales y testimonios positivos de personas que han utilizado tus productos o servicios. Los testimonios agregan credibilidad a tu marca y son una poderosa herramienta de persuasión.</p>
+                                    <p class="text-muted mb-0">Testimonios de clientes satisfechos aportan credibilidad. Comparte experiencias reales para persuadir y fortalecer tu marca con opiniones positivas sobre tus productos o servicios.</p>
                                 </div>
                             </div>
                         </div>
@@ -211,68 +211,67 @@
         </div>
         </div>
     </section>
+
+
     <!-- Basic features section-->
-    <section class="bg-light" data-aos="fade-up">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                <div class="col-12 col-lg-5">
-                    <h2 class="display-4 lh-1 mb-4">Ultimas tecnologías</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">En nuestra agencia, nos enorgullecemos de estar a la vanguardia de las últimas tecnologías en el diseño y desarrollo de landing pages. Nuestro servicio te brinda acceso a las innovaciones más recientes que llevarán tu presencia en línea a un nivel superior y te ayudarán a destacar en el mundo digital.</p>
-                </div>
-                <div class="col-sm-8 col-md-6">
-                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/codev.png" alt="..." /></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-white" data-aos="fade-up">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-sm-8 col-md-6">
-                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/design2.png" alt="..." /></div>
-                    <br><br><br>
+    <section class="bg-white">
 
-                </div>
-                <div class="col-lg-6">
-                    <div class="col-12">
-                        <h2 class="display-4 lh-1 mb-4">Personalización para tus Necesidades</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Entendemos que cada negocio es único, por lo que adaptamos nuestras landing pages a tus necesidades específicas. Ya sea que desees promocionar un producto, servicio o evento, o simplemente busques generar más suscriptores, nos aseguraremos de que tu landing page esté alineada con tus objetivos y se ajuste a tu identidad de marca.</p>
+        <!-- partial:index.partial.html -->
+        <div class="cards">
+            <div data-index="0" data-aos="fade-up">
+                <div class="card__inner">
+                    <div class="card__image-container">
+                        <img class="card__image" src="assets/img/1.jpg" alt="" />
+                    </div>
+                    <div class="card__content">
+                        <h1 class="card__title">Diseño</h1>
+                        <p class="card__description">
+                            Creamos páginas web cautivadoras con un diseño elegante y navegación intuitiva, brindando experiencias envolventes en todos los dispositivos para conectar tu marca con los clientes.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Content section 3-->
-    <section class="bg-light" data-aos="fade-up">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                <div class="col-12 col-lg-5">
-                    <h2 class="display-4 lh-1 mb-4">Experiencia Web Segura</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">Nuestro servicio de desarrollo web incluye un certificado SSL que garantiza la seguridad y privacidad de tu sitio. Eliminamos cualquier indicación de "no seguro" en el enlace, brindando una experiencia confiable para todos los usuarios.</p>
-                </div>
-                <div class="col-sm-8 col-md-6">
-                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/COD.png" alt="..." /></div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-white" data-aos="fade-up">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-sm-8 col-md-6">
-                    <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/maps.jpg" alt="..." /></div>
-                    <br><br><br>
-
-                </div>
-                <div class="col-lg-6">
-                    <div class="col-12">
-                        <h2 class="display-4 lh-1 mb-4">Muestra tu ubicacion</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">Seguramente tienes posibles clientes muy cerca de ti y que podrían estar interesados en lo que vendes u ofreces en tu negocio local o tienda, pero no saben de tu existencia. Y es que cada vez más personas deciden buscar un producto o servicio desde su celular, desde la comodidad de su casa.</p>
+            <div data-index="0" data-aos="fade-up">
+                <div class="card__inner">
+                    <div class="card__image-container">
+                        <img class="card__image" src="assets/img/2.jpg" alt="" />
+                    </div>
+                    <div class="card__content">
+                        <h1 class="card__title">Responsivo</h1>
+                        <p class="card__description">
+                            Creamos sitios web responsivos y versátiles que se ajustan sin esfuerzo a diversos dispositivos, asegurando una experiencia uniforme y atractiva, sin importar desde dónde interactúe tu público.
+                        </p>
                     </div>
                 </div>
             </div>
+            <div data-index="0" data-aos="fade-up">
+                <div class="card__inner">
+                    <div class="card__image-container">
+                        <img class="card__image" src="assets/img/3.jpg" alt="" />
+                    </div>
+                    <div class="card__content">
+                        <h1 class="card__title">Hosting</h1>
+                        <p class="card__description">
+                            Ofrecemos un año de hosting gratuito, alojando tu sitio en servidores confiables para garantizar velocidad y disponibilidad. Manejamos la gestión técnica mientras te concentras en ampliar tu negocio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-index="0" data-aos="fade-up">
+                <div class="card__inner">
+                    <div class="card__image-container">
+                        <img class="card__image" src="assets/img/4.jpg" alt="" />
+                    </div>
+                    <div class="card__content">
+                        <h1 class="card__title">Desarrollo</h1>
+                        <p class="card__description">
+                            Programamos con enfoque en las últimas tecnologías, asegurando un código limpio y eficiente. Tu proyecto se beneficia de soluciones avanzadas y mantenibles para un rendimiento excepcional
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 

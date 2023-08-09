@@ -55,3 +55,10 @@ window.addEventListener('load', function() {
       content.style.pointerEvents = 'auto'; /* Habilitar eventos de clic en el contenido */
     }, 500); // 500ms es el tiempo de la transición especificado en el CSS
   });
+
+  
+  
+  
+  
+
+  
