@@ -93,7 +93,7 @@
                         <img src="assets/img/Captura.png" alt="" style="width: 100%; height: 100%;">
                         <div style="position: absolute; top: 0; left: 0;">
                             <div class="device" data-orientation="portrait" data-color="black">
-                                <div class="notebook">
+                                <div>
                                     <img src="assets/img/code.png" alt="" style="width: 100%; height: 100%;">
                                 </div>
                             </div>
