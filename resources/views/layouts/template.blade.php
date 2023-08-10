@@ -90,7 +90,7 @@
                 <div class="col-lg-6">
                     <!-- Masthead device mockup feature-->
                     <div class="masthead-device-mockup" style="position: relative;">
-                        <img src="assets/img/Captura(1).png" alt="" style="width: 100%; height: 100%;">
+                        <img src="assets/img/circulo.png" alt="" style="width: 100%; height: 100%;">
                         <div style="position: absolute; top: 0; left: 0;">
                             <div class="device" data-orientation="portrait" data-color="black">
                                 <div>
