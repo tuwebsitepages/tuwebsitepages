@@ -26,7 +26,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" /> -->
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+	<link href="css/css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="css/templatemo-topic-listing.css">
+    <link rel="stylesheet" href="css/templatemo-medic-care.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 
@@ -90,7 +92,7 @@
                 <div class="col-lg-6">
                     <!-- Masthead device mockup feature-->
                     <div class="masthead-device-mockup" style="position: relative;">
-                        <img src="assets/img/circulo.png" alt="" style="width: 100%; height: 100%;">
+                        <img id="rotating-circle" src="assets/img/circulo.png" alt="" style="width: 85%; height: 85%;">
                         <div style="position: absolute; top: 0; left: 0;">
                             <div class="device" data-orientation="portrait" data-color="black">
                                 <div>
@@ -167,38 +169,18 @@
                 </div>
                 <div class="col-lg-4 order-lg-0">
                     <!-- Features section device mockup-->
-                    <div class="features-device-mockup">
-                        <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                    <stop class="gradient-start-color" offset="0%"></stop>
-                                    <stop class="gradient-end-color" offset="100%"></stop>
-                                </linearGradient>
-                            </defs>
-                            <circle cx="50" cy="50" r="50"></circle>
-                        </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect>
-                        </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="50" cy="50" r="50"></circle>
-                        </svg>
-                        <div>
-                            <divdata-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                <div class="device">
-                                    <!-- PUT CONTENTS HERE:-->
-                                    <!-- * * This can be a video, image, or just about anything else.-->
-                                    <!-- * * Set the max width of your media to 100% and the height to-->
-                                    <!-- * * 100% like the demo example below.-->
-                                    <img class="deviceIMG" src="assets/img/phone.gif" style="width: 100%; height: 100%" alt="">
-
+                    <div class="masthead-device-mockup circulo-sec" style="position: relative;">
+                        <img id="rotating-circle" src="assets/img/Captura2.png" alt="" style="width: 100%; height: 100%;">
+                        <div style="position: absolute; top: 0; left: 0;">
+                            <div class="device" data-orientation="portrait" data-color="black">
+                                <div>
+                                    <img src="assets/img/phone.gif" alt="" style="width: 100%; height: 100%;">
                                 </div>
-
-
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -265,72 +247,105 @@
         </div>
     </section>
 
+    <section id="section_1" class="section-padding pb-0" id="timeline">
+                <div class="container">
+                    <div class="row">
 
-    <!-- como funciona -->
-    <section id="section_1" class="timeline-section section-padding">
-        <div class="section-overlay"></div>
+                        <h2 class="text-center mb-lg-5 mb-4">Nuestra misión</h2>
+                        
+                        <div class="timeline">
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes" >
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg" data-aos="fade-up">
+                                    <h3 class=" text-light">Escucha y Análisis:</h3>
 
-        <div class="container">
-            <div class="row">
+                                    <p>Comenzamos entendiendo tus objetivos y tus necesidades específicas para crear una landing page efectiva.</p>
+                                </div>
 
-                <div class="col-12 text-center">
-                    <h2 class="text-white mb-4">¿Como funciona?</h1>
-                </div>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-code timeline-icon"></i>
+                                </div>
 
-                <div class="col-lg-10 col-12 mx-auto">
-                    <div class="timeline-container">
-                        <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
-                            <div class="list-progress">
-                                <div class="inner"></div>
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>“Compartenos tus Ideas”</time>
+                                </div>
+
                             </div>
 
-                            <li>
-                                <h4 class="text-white mb-3">Escucha y Planificación Personalizada</h4>
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg" data-aos="fade-up">
+                                    <h3 class=" text-light">Diseño Personalizado:</h3>
 
-                                <p class="text-white">Comenzamos con una escucha atenta a las ideas y necesidades del cliente. Ofrecemos planes de diseño que se ajustan a sus distintas necesidades y juntos planificamos la estrategia para el proyecto.</p>
-
-                                <div class="icon-holder">
-                                    <i class="bi-search"></i>
+                                    <p>Creamos un diseño atractivo y que refleje tu marca y capte la atención de tus visitantes.</p>
                                 </div>
-                            </li>
 
-                            <li>
-                                <h4 class="text-white mb-3">Desarrollo Profesional y Colaborativo</h4>
-
-                                <p class="text-white">Nuestro equipo altamente capacitado trabaja en estrecha colaboración con el cliente para crear un sitio web único y funcional. Mantenemos una comunicación constante, compartimos avances y ajustamos el proyecto según sus requerimientos.</p>
-
-                                <div class="icon-holder">
-                                    <i class="bi-bookmark"></i>
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-brush timeline-icon"></i>
                                 </div>
-                            </li>
 
-                            <li>
-                                <h4 class="text-white mb-3">Entrega del Producto</h4>
-
-                                <p class="text-white">Una vez que el sitio web ha sido desarrollado y perfeccionado según los requisitos del cliente, llega el emocionante momento de la entrega. Entregamos el producto final y nos aseguramos de que todo funcione sin problemas. </p>
-
-                                <div class="icon-holder">
-                                    <i class="bi-book"></i>
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>“Creatividad a la Acción”</time>
                                 </div>
-                            </li>
-                        </ul>
+
+                             
+                            </div>
+
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg" data-aos="fade-up">
+                                    <h3 class=" text-light">Desarrollo Profesional:</h3>
+
+                                    <p>Convertimos el diseño en una página web funcional, asegurándonos de que se vea bien en diferentes dispositivos.</p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-globe timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>“De Concepto a Realidad”</time>
+                                </div>
+
+                            </div>
+
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg" data-aos="fade-up">
+                                    <h3 class=" text-light">Pruebas y Ajustes:</h3>
+
+                                    <p>Verificamos minuciosamente cada elemento para garantizar que todo funcione correctamente.</p>
+                                    
+                                   
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-gear timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>“Perfeccionando Cada Detalle”</time>
+                                </div>
+
+                            </div>
+
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg" data-aos="fade-up">
+                                    <h3 class=" text-light">Entrega Exitosa:</h3>
+
+                                    <p>Te entregamos una landing page lista para atraer a tu audiencia y ayudarte a alcanzar tus metas.</p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-patch-check-fill timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time>¡Tu Landing Page Esta Lista!</time>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+            </section>
 
-                <div class="col-12 text-center mt-5">
-                    <p class="text-white">
-                        ¿Alguna duda?
-                        <button class="btn custom-btn custom-border-btn ms-3" data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                            <span class="d-flex align-items-center hide-mobile">
-                                <i class="iconMesage bi-chat-text-fill me-2"></i>
-                                <span class="small ">Hablemos!</span>
-                            </span>
-                        </button>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
@@ -373,7 +388,7 @@
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="outline: none !important; box-shadow: none;">
                                     ¿Qué es una landing page y por qué la necesito?
                                 </button>
                             </h2>
@@ -387,7 +402,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="outline: none !important; box-shadow: none;">
                                     ¿Cuánto tiempo lleva desarrollar una landing page?
                                 </button>
                             </h2>
@@ -401,7 +416,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="outline: none !important; box-shadow: none;">
                                     ¿Qué diferencia hay entre los planes que ofrecen?
                                 </button>
                             </h2>
@@ -414,7 +429,7 @@
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="outline: none !important; box-shadow: none;">
                                     ¿Puedo personalizar el diseño de mi landing page?
                                 </button>
                             </h2>
@@ -426,7 +441,7 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="outline: none !important; box-shadow: none;">
                                         ¿Qué tan efectiva es una landing page en la generación de leads o ventas? </button>
                                 </h2>
 
@@ -437,7 +452,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingSix">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="outline: none !important; box-shadow: none;">
                                             ¿Recibiré soporte técnico después de la entrega de la landing page? </button>
                                     </h2>
 
@@ -448,7 +463,7 @@
                                     </div>
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingSeven">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="outline: none !important; box-shadow: none;">
                                                 ¿Cómo puedo contactarlos para comenzar con mi proyecto? </button>
                                         </h2>
 
@@ -460,7 +475,7 @@
 
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="headingEight">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="outline: none !important; box-shadow: none;">
                                                     ¿Qué sucede con el dominio de mi sitio web?
                                                 </button>
                                             </h2>
@@ -473,7 +488,7 @@
                                             </div>
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingNine">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="outline: none !important; box-shadow: none;">
                                                         ¿Qué incluye el servicio de diseño y desarrollo de mi sitio web?
                                                     </button>
                                                 </h2>
@@ -661,8 +676,8 @@
                         <td colspan="3">Host y Dominio</td>
                     </tr>
                     <tr>
-                        <td>Host y Dominio</td>
-                        <td colspan="3">El Hosting y Dominio tendran un año de vigencia</td>
+                        <td>Host</td>
+                        <td colspan="3">Tendras un año de hosting totalmente gratis</td>
                     </tr>
                     <tr>
                         <td> </td>
@@ -736,7 +751,7 @@
 
                 <div class="col-lg-3 col-12 mb-4 pb-2">
                     <a class=" navbar-brand mb-2" href="/">
-                        <i class="bi-back"></i>
+                        
                         <span>Tu WebSite</span>
                     </a>
                 </div>
@@ -800,6 +815,53 @@
             </div>
         </div>
     </footer>
+
+    
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <img class="decoration-city" src="assets/img/decoration-city.svg" alt="alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Una vez finalizado el desarrollo, tendrás la posibilidad de actualizar / modificar tu sitio web por tus propios medios y la cantidad de veces que sea necesario. El valor expresado no incluye actualizaciones luego de finalizado el desarrollo. Quedan excluidos: Diarios digitales, foros, sitios de subastas y búsquedas o reservas online.</p>
+                    <div class="social-container">
+                       
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                       
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg p-small">
+                        <li><a href="article.html">Article Details</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-3">
+                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
+                </div> <!-- end of col -->
+                <div class="col-lg-3">
+                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
     <!-- Feedback Modal-->
     <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">

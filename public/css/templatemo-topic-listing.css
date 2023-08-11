@@ -846,7 +846,7 @@ blockquote {
 .faq-section .accordion-button:not(.collapsed) {
   border-radius: var(--border-radius-large);
   box-shadow: none;
-  color: var(--primary-color);
+  color: white;
 }
 
 .faq-section .accordion-body {
