@@ -170,7 +170,7 @@
                 <div class="col-lg-4 order-lg-0">
                     <!-- Features section device mockup-->
                     <div class="masthead-device-mockup circulo-sec" style="position: relative;">
-                        <img id="rotating-circle" src="assets/img/Captura2.png" alt="" style="width: 100%; height: 100%;">
+                        <img id="rotating-circle" src="assets/img/circulo.png" alt="" style="width: 100%; height: 100%;">
                         <div style="position: absolute; top: 0; left: 0;">
                             <div class="device" data-orientation="portrait" data-color="black">
                                 <div>
