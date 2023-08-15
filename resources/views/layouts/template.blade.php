@@ -739,83 +739,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer-->
-
-    <footer class="site-footer section-padding">
-        <div class="container">
-            <div class="row">
-
-                <p class="acta text-gray text-center">Una vez finalizado el desarrollo, tendrás la posibilidad de actualizar / modificar tu sitio web por tus propios medios y la cantidad de veces que sea necesario.
-                    El valor expresado no incluye actualizaciones luego de finalizado el desarrollo. Quedan excluidos: Diarios digitales, foros, sitios de subastas y búsquedas o reservas online.</p>
-
-                <div class="col-lg-3 col-12 mb-4 pb-2">
-                    <a class=" navbar-brand mb-2" href="/">
-                        
-                        <span>Tu WebSite</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-3">
-                    <h6 class="site-footer-title mb-3">Fuentes</h6>
-
-                    <ul class="site-footer-links">
-                        <li class="site-footer-link-item">
-                            <a href="#features" class="site-footer-link">Sobre Nosotros</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_1" class="site-footer-link">¿Como funciona?</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_2" class="site-footer-link">FAQs</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_3" class="site-footer-link">Precios</a>
-                        </li>
-                        <li class="site-footer-link-item">
-                            <a href="/terminos" class="site-footer-link">Terminos y condiciones</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                    <h6 class="site-footer-title mb-3">Contacto</h6>
-
-
-
-                    <p class="text-gray d-flex">
-                        <a href="mailto:tuwebsitepages@gmail.com" class="site-footer-link" style="color: inherit; text-decoration: none;">
-                            tuwebsitepages@gmail.com
-                        </a>
-
-                    </p>
-                    <p class="text-gray d-flex">
-
-                        <a href="https://www.instagram.com/tuwebsitepage/" target="_blank" class="site-footer-link" style="color: inherit; text-decoration: none;">
-                            <i class="bi bi-instagram"></i> @tuwebsitepage
-
-                        </a>
-
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                    <div class="dropdown">
-                        <a class="navbar-brand fw-bold" href="#page-top"><img class="imgIcon" src="assets/img/tuwebsite.png" alt=""></a>
-                    </div>
-
-                    <p class="copyright-text mt-lg-5 mt-4">Tu Website 2023. Todos los derechos reservados.
-                    </p>
-
-                </div>
-
-            </div>
-        </div>
-    </footer>
-
     
     <!-- Footer -->
     <div class="footer bg-gray">
@@ -825,10 +748,10 @@
                 <div class="col-lg-12">
                     <p>Una vez finalizado el desarrollo, tendrás la posibilidad de actualizar / modificar tu sitio web por tus propios medios y la cantidad de veces que sea necesario. El valor expresado no incluye actualizaciones luego de finalizado el desarrollo. Quedan excluidos: Diarios digitales, foros, sitios de subastas y búsquedas o reservas online.</p>
                     <div class="social-container">
-                       
+                       <br>
                         <span class="fa-stack">
                             <a href="#your-link">
-                                <i class="fab fa-instagram fa-stack-1x"></i>
+                                <img src="assets/img/instagram.png" alt="">
                             </a>
                         </span>
                        
@@ -846,17 +769,34 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article.html">Article Details</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        
+                        <li>
+                            <a href="#features">Sobre Nosotros</a>
+                        </li>
+
+                        <li>
+                            <a href="#section_1">¿Como funciona?</a>
+                        </li>
+
+                        <li>
+                            <a href="#section_2">FAQs</a>
+                        </li>
+
+                        <li>
+                            <a href="#section_3">Precios</a>
+                        </li>
+                        <li>
+                            <a href="/terminos">Terminos</a>
+                        </li>
                     </ul>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
+                    <p class="p-small statement">Copyright©<a href="/">Tu Website</a></p>
                 </div> <!-- end of col -->
                 <div class="col-lg-3">
-                    <p class="p-small statement">Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
-                </div> <!-- end of col -->
+                    <p class="p-small statement">Realizado por: <a href="/" target="_blank">TuWebsite</a></p>
+                </div>
+                 <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
